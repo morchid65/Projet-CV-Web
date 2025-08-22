@@ -619,5 +619,16 @@ footer {
   100% { transform: translateY(100vh) rotate(180deg); opacity: 0; }
 }
 
+.box {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease-out;
+}
+
+.box.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 
